@@ -278,8 +278,8 @@ body{
   background-image: url(assets/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw; /*View Port Width*/
+  background-size: contain;
+  width: 1300px; /*View Port Width*/
   height: 800px;
   display: flex;
   justify-content: center;
