@@ -9,13 +9,13 @@ const Sidebar = () => {
       SideBar
       </div>
       <div className="flex flex-col justify-center gap-11 ml-5 ">
-        <div className=" w-36 rounded-full h-9 shadow-md text-center">
+        <div className=" w-36 rounded-full h-9 text-center hover:shadow-md">
             <Link href="/coresystems">Core Systems</Link>
         </div>
-        <div className=" w-36 rounded-full h-9 shadow-md text-center">
+        <div className=" w-36 rounded-full h-9 text-center hover:shadow-md">
             <Link href="/payments">Payments</Link>
         </div>
-        <div className=" w-36 rounded-full h-9 shadow-md text-center">
+        <div className=" w-36 rounded-full h-9 text-center hover:shadow-md">
             <Link href="/channels">Channels</Link>
         </div>
         

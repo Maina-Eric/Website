@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         <div className="drawer-side">
         <label for="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-        <div className=" w-80">
+        <div className=" w-72">
           <Sidebar/>
         </div>
 
