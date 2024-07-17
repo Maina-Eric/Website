@@ -14,12 +14,12 @@ const Navbar = () => {
         <input id="my-drawer" type="checkbox" className="drawer-toggle"/> 
         <div className="drawer-content w-7 h-8">
           
-          <label for="my-drawer" className="btn bg-[#FFFFFF] hover:bg-[#FFFFFF] text-2xl border-none shadow-none drawer-button h-2">
+          <label htmlFor="my-drawer" className="btn bg-[#FFFFFF] hover:bg-[#FFFFFF] text-2xl border-none shadow-none drawer-button h-2">
              <svg className="h-7 w-5"><IoMenu /></svg>
           </label>
         </div>
         <div className="drawer-side">
-        <label for="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
+        <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
         <div className=" w-72">
           <Sidebar/>
         </div>
