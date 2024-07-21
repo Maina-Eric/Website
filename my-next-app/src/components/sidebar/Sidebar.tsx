@@ -4,7 +4,7 @@ import Footer from '../footer/Footer'
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col justify-between gap-7 bg-[#FFFFFF] hover:bg-[#FFFFFF] shadow-md  w-72 h-screen">
+    <div className="flex flex-col justify-between gap-7 bg-[#FFFFFF] hover:bg-[#FFFFFF] shadow-md  w-72 h-screen relative">
         <div className="mt-3 ml-5 text-xl font-bold">
       SideBar
       </div>

@@ -14,7 +14,7 @@ const Navbar = () => {
         <input id="my-drawer" type="checkbox" className="drawer-toggle"/> 
         <div className="drawer-content w-7 h-8">
           
-          <label htmlFor="my-drawer" className="btn bg-[#FFFFFF] hover:bg-[#FFFFFF] text-2xl border-none shadow-none drawer-button h-2">
+          <label htmlFor="my-drawer" className="btn bg-[#FFFFFF] hover:bg-[#FFFFFF] text-2xl border-none shadow-none drawer-button h-2 absolute">
              <svg className="h-7 w-5"><IoMenu /></svg>
           </label>
         </div>
